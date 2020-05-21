@@ -33,7 +33,7 @@ Select operations
 Please choice (1/2/3/4/5) :
 """
 
-user_input =(input(menu_promt))
+user_input =input(menu_promt)
 while user_input != '5' :
     if user_input == '1':
         add_operations()
@@ -46,4 +46,4 @@ while user_input != '5' :
     else:
         print("Enter valid input")
 
-    user_input =int(input( menu_promt ))
+    user_input =input( menu_promt )
